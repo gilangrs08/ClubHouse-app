@@ -26,7 +26,7 @@
         <div class="header">
             <div class="header-left">
                 <a href="{{ route('home') }}" class="logo">
-                    <img src="{{ URL::to('assets/img/logo.png') }}" alt="Logo">
+                    <img src="{{ URL::to('C:\Users\gilan\OneDrive\Pictures\Screenshot\logo ptba') }}" alt="Logo">
                 </a>
                 <a href="{{ route('home') }}" class="logo logo-small">
                     <img src="{{ URL::to('assets/img/logo-small.png') }}" alt="Logo" width="30" height="30">
@@ -68,8 +68,8 @@
                     </a>
                     <div class="dropdown-menu notifications">
                         <div class="topnav-dropdown-header">
-                            <span class="notification-title">Notifications</span>
-                            <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+                            <span class="notification-title">Notifikasi</span>
+                            <a href="javascript:void(0)" class="clear-noti"> Hapus Semua </a>
                         </div>
                         <div class="noti-content">
                             <ul class="notification-list">
@@ -177,7 +177,7 @@
 		{{-- content page --}}
         @yield('content')
         <footer>
-            <p>Copyright © 2022 Soeng Souy.</p>
+            <p></p>
         </footer>
     
     </div>
